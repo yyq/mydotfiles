@@ -1,0 +1,46 @@
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Define bundles via Github repos
+Bundle 'christoomey/vim-run-interactive'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'croaky/vim-colors-github'
+Bundle 'danro/rename.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'kchmck/vim-coffee-script'
+"Bundle 'kien/ctrlp.vim'
+"using command-t instead
+Plugin 'wincent/Command-T'
+Bundle 'pbrisbin/vim-mkdir'
+Bundle 'vim-syntastic/syntastic'
+Bundle 'slim-template/vim-slim'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'vim-scripts/ctags.vim'
+Bundle 'vim-scripts/matchit.zip'
+Bundle 'vim-scripts/tComment'
+Bundle "mattn/emmet-vim"
+Bundle "scrooloose/nerdtree"
+Bundle "godlygeek/tabular"
+Bundle "msanders/snipmate.vim"
+Bundle "jelera/vim-javascript-syntax"
+Bundle "altercation/vim-colors-solarized"
+Bundle "othree/html5.vim"
+Bundle "xsbeats/vim-blade"
+Bundle "Raimondi/delimitMate"
+Bundle "groenewege/vim-less"
+Bundle "evanmiller/nginx-vim-syntax"
+" currently I don't use motion a lot, so comment out first. If I get farmiliar
+" with motioin, I'll make this ON.
+"Bundle "Lokaltog/vim-easymotion"
+Bundle "tomasr/molokai"
+Bundle "klen/python-mode"
+
+" Plugins
+Plugin 'vim-airline/vim-airline'
